@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+/// A custom list tile widget styled to resemble terminal output.
+/// Displays the restaurant's name, cuisine type, and index number in a terminal-like format.
 class TerminalListTile extends StatelessWidget {
   final String name;
   final String cuisine;
